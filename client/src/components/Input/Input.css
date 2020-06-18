@@ -1,0 +1,48 @@
+.form {
+  display: flex;
+  border-top: 2px solid #d3d3d3;
+}
+
+.input {
+  border: none;
+  border-radius: 0;
+  padding: 5%;
+  width: 80%;
+  font-size: 1.2em;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.sendButton {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #39b4f7;
+  padding: 20px;
+  display: inline-block;
+  border: none;
+  width: 20%;
+  font-weight: bold;
+}
+
+.sendButton:hover {
+  background-color: #01507a;
+}
+
+.sendButton:active {
+  background-color: black;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .sendButton:active {
+    background-color: #01507a;
+  }
+
+  .sendButton:hover {
+    background-color: #39b4f7;
+  }
+}

@@ -1,0 +1,79 @@
+.textContainer {
+  /* display: flex; */
+  position: fixed;
+  background-color: #39b4f7;
+  /* flex-direction: column; */
+  margin-left: 42%;
+  color: white;
+  height: 100%;
+  width: 18%;
+  box-shadow: -5px 0px 30px 1px #1d528a;
+  /* justify-content: space-between; */
+}
+
+.SideInner h2 {
+  color: white !important;
+  font-weight: bolder;
+  font-size: 1.5em;
+  padding-left: 25%;
+  padding-top: 10px;
+}
+
+.activeContainer {
+  display: flex;
+  align-items: center;
+}
+
+.activeItem {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.activeContainer img {
+  padding-left: 10px;
+}
+
+.activeContainer ul {
+  margin-left: 0 !important ;
+  padding-left: 0 !important;
+  width: 100%;
+}
+
+.activeContainer ul li {
+  width: 100%;
+  border-bottom: #01507a solid 1px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.header-side {
+  padding-bottom: 10px;
+  border-bottom: 1px black solid;
+  background-color: #01507a;
+}
+
+.textContainer h1 {
+  margin-bottom: 0px;
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+  .textContainer {
+    display: none !important;
+  }
+}
+
+.dev {
+  position: absolute;
+  bottom: 3%;
+  left: 14%;
+  font-weight: bold;
+  color: lightgrey;
+}
+
+.king {
+  color: white;
+}
